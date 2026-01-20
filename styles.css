@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/** {
+    padding: 0;
+    nav-down: 0;*/
+/*}*/
+body {
+    background-color: #dcdcdc;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+a {
+    color:rgb(145, 116, 173);
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: purple;
+}
+
+a:visited {
+    color: rgb(109, 97, 145);
+}
+
+
+.avatar {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow:  0 0 15px rgb(93, 42, 69) !important;
+}
+
+.info p {
+    color: rgb(127, 50, 137);
+    font-style: inherit;
+    text-decoration: none;
+    /* text-transform: capitalize; */
+    /* initial-letter: 80px;  */
+    /* word-spacing: 3px */
+}
+
+.info {
+    margin-bottom: 20;
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display:block;
+    }
+}
+
+.info-text {
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.info-text {
+    margin-bottom: 10px;
+}
+
+.info h1 {
+    color:rgb(50, 15, 82);
+    margin: 0;
+    font-style:unset;
+}
+
+.container { 
+    max-width: 1250px;
+    margin: auto;
+    padding-top: 35px;
+}
+
+/*box model*/
+/*.facts {
+    background: rgb(199, 181, 214);
+    /*padding: 15px;*/
+    /*padding: 20px 35px;*/
+    /*padding-top: 15px;
+    padding-left: 35px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    margin: 20px;
+
+    border: 4px solid rgba(56, 22, 79, 0.21);
+    border-bottom-style: dotted;
+    border-top-width: 10px;
+    border-left-color: rgb(50, 32, 67);
+    
+}
+
+/*.box-model div {
+    float: left;
+    background: black;
+    height: 200px;
+    border: 4px solid red;
+    width: 25%;
+    box-sizing: border-box;
+
+}*/
+
+.bg1-purple {
+    background: #c73cc7e1
+}
+
+.bg2-purple {
+    background: #c73cc780
+}
+
+
+.bg3-purple {
+    background: #c73cc763
+}
+
+.bg4-purple {
+    background: #c73cc735
+}
+
+.card {
+    padding: 10px 15px;
+    margin-bottom: 18px;
+    border-radius: 25px;
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li {
+    color: white;
+
+}
+
+.table {
+    width: 100%;
+    
+}
+
+.table td {
+    padding-bottom: 10px;
+    right: 20px;
+    
+}
+ 
+.table th {
+    padding-left: 0px ;
+    left: 16px;
+    text-align: left;
+}
+
+/*.table td:nth-child(1) {
+    color:brown
+}*/
+
+.table tr:nth-child(1), .table tr:nth-child(2), .table tr:nth-child(3), .table tr:nth-child(4) {
+    color:rgb(81, 46, 17)
+}
+
+.zagolovok {
+    color:rgb(74, 14, 6)
+}
+
+.contact h3 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 15px;
+    color: black;
+
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(40, 40, 40);
+    color:#390039;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 20%;
+    margin-right: 20px;
+}
+
+/*.row > .form-group:first-child {
+    margin-right: 20px;*/
+/*}*/
+
+.btn {
+    background-color:hsl(300, 59%, 29%);
+    padding: 15px 15px;
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+/*Position*/
+
+/*.position {
+    position: relative;
+    border: 3px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    height: 50px;
+}
+/*
+.box {
+    /*position: absolute;
+    position: fixed;
+    bottom: 50px;
+    border-radius: 50%;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background:rgb(130, 94, 194);
+}*/
+
